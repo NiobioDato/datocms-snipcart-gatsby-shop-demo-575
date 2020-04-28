@@ -19,15 +19,10 @@ module.exports = {
       }
     },
 	{
-    resolve: "gatsby-plugin-google-tagmanager",
+    resolve: `gatsby-plugin-facebook-pixel`,
     options: {
-      id: "GTM-MPNJ35X",
-      includeInDevelopment: false,
-      defaultDataLayer: function () {
-        return {
-          pageType: window.pageType},
+      pixelId: '0132940124921458',
     },
-	},
-	},
+  },
   ],
 }
