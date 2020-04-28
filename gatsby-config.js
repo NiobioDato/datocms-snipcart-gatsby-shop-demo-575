@@ -18,11 +18,5 @@ module.exports = {
         autopop: true
       }
     },
-	{
-    resolve: `gatsby-plugin-facebook-pixel`,
-    options: {
-      pixelId: '0132940124921458',
-    },
-  },
   ],
 }
