@@ -8,6 +8,14 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     {
+    resolve: "gatsby-plugin-google-tagmanager",
+    options: {
+      id: "GTM-MPNJ35X",
+      includeInDevelopment: false,
+      defaultDataLayer: { platform: "gatsby" },
+	 } 
+	 },
+	{
       resolve: `gatsby-source-datocms`,
       options: { apiToken: process.env.DATO_API_TOKEN },
     },
